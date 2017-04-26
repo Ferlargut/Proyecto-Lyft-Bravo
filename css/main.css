@@ -1,4 +1,47 @@
 body{
     height: 100%;
     width: 100%;
+    margin: 0;
+    }    
+
+#contenedorfer{
+    background: #74278e;
+    width: 100%;
+    height: 550px;
+}
+#imgcelf{
+    /*background-image: url(/home/alumna40/Escritorio/Proyecto-Lyft-Bravo/img/phone.png);*/
+    
+    position: absolute;   
+    left: 701px;
+    top: 45px;
+}       
+#imgf{
+    width: 500px;
+    
+}
+.letrasf{
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+}
+.contieneparrafof{
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    left: 200px;
+    width: 1000px;
+}
+.h3f{
+    font-size: 1.60em;
+    margin-bottom: 0;
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.pf{
+    font-size: 1rem;
+}
+.parrafosf{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem
 }
