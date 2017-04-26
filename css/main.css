@@ -1,4 +1,70 @@
 body{
     height: 100%;
     width: 100%;
+    margin:0;
+    padding:0;
+}
+
+/*inicio estilos sue e ilse*/
+/* estilos navbar*/
+.navBar {
+  position: fixed;
+  background-color: #333447;
+  width: 100%;
+  font-family: 'Didact Gothic', sans-serif;
+}
+/* estilos logo*/
+.logo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 65px;
+  height: 40px;
+}
+/*elementos del nav estilos*/
+.lista {
+  list-style: none;
+}
+.elementosUlTexto {
+  color:white;
+  font-size: 20px;
+}
+.elementosUl {
+  display:inline-block;
+  margin:17px;
+}
+.boton {
+  border: 1px solid white;
+  background-color: transparent;
+  color:white;
+  padding:10px 18px 10px 18px;
+  border-radius: 8px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+}
+/*hover sobre elementos del nav*/
+.elementosUlTexto:hover {
+  color:#ff00bf;
+}
+.elementosUl:hover {
+  cursor:pointer;
+}
+
+.botonLog:hover {
+  background-color: #999999;
+  cursor:pointer;
+}
+/*boton oculto de sign in estilos*/
+.botonSign {
+  background-color: transparent;
+  color:#ff00bf;
+  border: 1px solid #ff00bf;
+  visibility: hidden;
+}
+/*posiciones y margenes para acomodar nav a la izquierda*/
+.positionNav {
+  margin-left: 46%;
+}
+.marginExtra {
+  margin-left:40px;
 }
