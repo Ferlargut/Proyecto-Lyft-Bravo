@@ -150,9 +150,10 @@ body{
 /* estilos navbar*/
 .navBar {
   position: fixed;
-  background-color: #333447;
+  background:linear-gradient(#333447,transparent);
   width: 100%;
   font-family: 'Didact Gothic', sans-serif;
+  z-index:1;
 }
 /* estilos logo*/
 .logo {
@@ -185,15 +186,16 @@ body{
 }
 /*hover sobre elementos del nav*/
 .elementosUlTexto:hover {
-  color:#ff00bf;
+  color:#ff00bf !important;
 }
 .elementosUl:hover {
   cursor:pointer;
 }
 
 .botonLog:hover {
-  background-color: #999999;
+  background-color: #999999 !important;
   cursor:pointer;
+
 }
 /*boton oculto de sign in estilos*/
 .botonSign {
