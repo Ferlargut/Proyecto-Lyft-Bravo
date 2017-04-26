@@ -2,3 +2,101 @@ body{
     height: 100%;
     width: 100%;
 }
+/*css nancy header*/
+#sectionFormulario > img{
+	display: inline-block;
+	width: 100%;
+
+}
+.contenedorTexto{
+	margin-top: 200px;
+	height: auto;
+	width: 50%;
+	position: absolute;
+	background-color: white;
+	margin-left: 50%;	
+}
+#texto1{
+	position: relative;
+	margin-left: 60px;
+	font-size: 40px;
+	color: #352384;
+}
+#texto2{
+	font-size: small;
+	letter-spacing: 1.5px;
+	position: relative;
+	display: inline-block;
+	margin-left: 60px;
+	color: #352384;
+}
+#cel{
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom:solid black 1px;
+	margin-left: 60px;
+	width: 80%;
+}
+#numero{
+	position: relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+#btn_texto{
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	height:auto;
+	margin-left: 60px;
+	border: solid 1px transparent;
+}
+#btnText{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 1rem;
+	white-space: nowrap;
+	cursor: pointer;
+	border: .08333rem solid transparent;
+	border-bottom: 5px;
+	background-color:#ff00bf;
+	color: white;
+	border-radius: .5rem;
+	line-height: 1.5;
+	padding: .75rem 1.25rem;
+}
+#btnLink{
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: .75rem 1.25rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	text-decoration: underline;
+	font-weight: 300;
+	color: #728099;
+	border-color: transparent;
+	background-color: transparent;
+	border-radius: 0;
+}
+#btnLink:hover{
+	color: #ff00bf;
+}
+.linea1{
+	margin-left: 60px;
+	font-size: .6rem;
+	line-height: 1.5;
+	color: #728099;
+}
+.linea1_a{
+	color: #ff00bf;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: auto;
+	font-size: .6rem;
+}
+/*fin del css nancy header*/
