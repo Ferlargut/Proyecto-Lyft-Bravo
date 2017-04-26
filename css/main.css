@@ -410,9 +410,8 @@ li h4{
 	color: #bfc7d9;
 }
 .img{
-	height: 30%;
 	width: 30%;
-	padding-top: 5%;
+	padding: 5%;
 }
 .aFooter:link{
     text-decoration: none;
