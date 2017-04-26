@@ -25,15 +25,15 @@ function prueba(){
     textosNavDos.style.color="black";
     textosNavTres.style.color="black";
   } else {
-    navegador.style.background="red";
-    botonOculto.style.visibility="visible";
-    logo.src="img/logo-pink.png";
+    navegador.style.background="transparent";
+    botonOculto.style.visibility="hidden";
+    logo.src="img/logo-white.png";
     botonLog.style.background="transparent";
     botonLog.style.borderColor="#C0C0C0";
-    botonLog.style.color="black";
-    textosNavUno.style.color="black";
-    textosNavDos.style.color="black";
-    textosNavTres.style.color="black";
+    botonLog.style.color="white";
+    textosNavUno.style.color="white";
+    textosNavDos.style.color="white";
+    textosNavTres.style.color="white";
 
   }
 
