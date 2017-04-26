@@ -364,3 +364,97 @@ body{
 }
 
 /*aqui termina mi seccion Daff*/
+/*footer Nash y Ross*/
+body{
+    height: 100%;
+    width: 100%
+}
+footer{
+	background-color: #333447;
+	color: #f3f3f5;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.contenedorNr1{
+	position: relative;
+}
+.listaLinks1{
+	display: inline-block;
+}
+.listaLinks1 ul{
+	list-style: none;
+}
+.listaLinks2{
+	display: inline-block;
+	position: absolute;
+}
+.listaLinks2 ul{
+	list-style: none;
+}
+.listaLinks3{
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+}
+.listaLinks3 ul{
+	list-style: none;
+}
+.imagenes{
+	display: inline-block;
+	position: absolute;
+	margin-left: 50%;
+}
+.imagenes ul{
+	list-style: none;
+}
+li h4{
+	color: #bfc7d9;
+}
+.img{
+	height: 30%;
+	width: 30%;
+	padding-top: 5%;
+}
+.aFooter:link{
+    text-decoration: none;
+}
+.aFooter:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.aFooter:hover{
+   	color: magenta;
+    text-decoration: underline;
+}
+.redesSociales ul{
+	list-style: none;
+}
+.redeSociales{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.redeS{
+	display: inline-block;
+	margin-left: 20px;
+}
+.reds{
+	position: relative;
+	display: inline-block;
+	left: 530px;
+}
+.derechos ul{
+	list-style: none;
+}
+.lineA{
+	width: 400px;
+	color: white;
+}
+.derechos{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.derechoS{
+	display: inline-block;
+}
+/*Aqui termina footer*/
