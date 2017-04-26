@@ -1,4 +1,498 @@
 body{
     height: 100%;
     width: 100%;
+    margin: 0px;
+    padding:0px;
+    }
+#contenedorPrincipal{
+        margin-top: -10px;
 }
+#contenedorfer{
+    background: #74278e;
+    width: 100%;
+    height: 550px;
+}
+#imgcelf{
+    /*background-image: url(/home/alumna40/Escritorio/Proyecto-Lyft-Bravo/img/phone.png);*/
+    margin-right: 100px;
+    float: right;
+}
+#imgf{
+    width: 500px;
+
+}
+.letrasf{
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+}
+.contieneparrafof{
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    left: 200px;
+    width: 1000px;
+}
+.h3f{
+    font-size: 1.60em;
+    margin-bottom: 0;
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.pf{
+    font-size: 1rem;
+}
+.parrafosf{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem
+
+}
+/*css nancy header*/
+#sectionFormulario > img{
+	display: inline-block;
+	width: 100%;
+
+}
+.contenedorTexto{
+	margin-top: 200px;
+	height: auto;
+	width: 50%;
+	position: absolute;
+	background-color: white;
+	margin-left: 50%;
+}
+#texto1{
+	position: relative;
+	margin-left: 60px;
+	font-size: 40px;
+	color: #352384;
+}
+#texto2{
+	font-size: small;
+	letter-spacing: 1.5px;
+	position: relative;
+	display: inline-block;
+	margin-left: 60px;
+	color: #352384;
+}
+#cel{
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom:solid black 1px;
+	margin-left: 60px;
+	width: 80%;
+}
+#numero{
+	position: relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+#btn_texto{
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	height:auto;
+	margin-left: 60px;
+	border: solid 1px transparent;
+}
+#btnText{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 1rem;
+	white-space: nowrap;
+	cursor: pointer;
+	border: .08333rem solid transparent;
+	border-bottom: 5px;
+	background-color:#ff00bf;
+	color: white;
+	border-radius: .5rem;
+	line-height: 1.5;
+	padding: .75rem 1.25rem;
+}
+#btnLink{
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: .75rem 1.25rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	text-decoration: underline;
+	font-weight: 300;
+	color: #728099;
+	border-color: transparent;
+	background-color: transparent;
+	border-radius: 0;
+}
+#btnLink:hover{
+	color: #ff00bf;
+}
+.linea1{
+	margin-left: 60px;
+	font-size: .6rem;
+	line-height: 1.5;
+	color: #728099;
+}
+.linea1_a{
+	color: #ff00bf;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: auto;
+	font-size: .6rem;
+}
+/*fin del css nancy header*/
+
+/*inicio estilos sue e ilse*/
+/* estilos navbar*/
+.navBar {
+  position: fixed;
+  background-color: #333447;
+  width: 100%;
+  font-family: 'Didact Gothic', sans-serif;
+}
+/* estilos logo*/
+.logo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 65px;
+  height: 40px;
+}
+/*elementos del nav estilos*/
+.lista {
+  list-style: none;
+}
+.elementosUlTexto {
+  color:white;
+  font-size: 20px;
+}
+.elementosUl {
+  display:inline-block;
+  margin:17px;
+}
+.boton {
+  border: 1px solid white;
+  background-color: transparent;
+  color:white;
+  padding:10px 18px 10px 18px;
+  border-radius: 8px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+}
+/*hover sobre elementos del nav*/
+.elementosUlTexto:hover {
+  color:#ff00bf;
+}
+.elementosUl:hover {
+  cursor:pointer;
+}
+
+.botonLog:hover {
+  background-color: #999999;
+  cursor:pointer;
+}
+/*boton oculto de sign in estilos*/
+.botonSign {
+  background-color: transparent;
+  color:#ff00bf;
+  border: 1px solid #ff00bf;
+  visibility: hidden;
+}
+/*posiciones y margenes para acomodar nav a la izquierda*/
+.positionNav {
+  margin-left: 46%;
+}
+.marginExtra {
+  margin-left:40px;
+
+}
+/*css nancy header*/
+#sectionFormulario > img{
+	display: inline-block;
+	width: 100%;
+
+}
+.contenedorTexto{
+	margin-top: 200px;
+	height: auto;
+	width: 50%;
+	position: absolute;
+	background-color: white;
+	margin-left: 50%;
+}
+#texto1{
+	position: relative;
+	margin-left: 60px;
+	font-size: 40px;
+	color: #352384;
+}
+#texto2{
+	font-size: small;
+	letter-spacing: 1.5px;
+	position: relative;
+	display: inline-block;
+	margin-left: 60px;
+	color: #352384;
+}
+#cel{
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom:solid black 1px;
+	margin-left: 60px;
+	width: 80%;
+}
+#numero{
+	position: relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+#btn_texto{
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	height:auto;
+	margin-left: 60px;
+	border: solid 1px transparent;
+}
+#btnText{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 1rem;
+	white-space: nowrap;
+	cursor: pointer;
+	border: .08333rem solid transparent;
+	border-bottom: 5px;
+	background-color:#ff00bf;
+	color: white;
+	border-radius: .5rem;
+	line-height: 1.5;
+	padding: .75rem 1.25rem;
+}
+#btnLink{
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: .75rem 1.25rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	text-decoration: underline;
+	font-weight: 300;
+	color: #728099;
+	border-color: transparent;
+	background-color: transparent;
+	border-radius: 0;
+}
+#btnLink:hover{
+	color: #ff00bf;
+}
+.linea1{
+	margin-left: 60px;
+	font-size: .6rem;
+	line-height: 1.5;
+	color: #728099;
+}
+.linea1_a{
+	color: #ff00bf;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: auto;
+	font-size: .6rem;
+}
+.nombreLugar{
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+.apellido{
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+.correo{
+	display: block;
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+.checar{
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+	margin-bottom: 20px;
+}
+/*fin del css nancy header*/
+
+/*Seccion Notas*/
+.notas{
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333447;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 19px;
+  display: flex;
+  text-align: justify;
+}
+
+.titulito{
+  font-size: 14px;
+  margin-bottom: -25px;
+  font-family: Helvetica;
+  font-weight: 700;
+}
+
+.titulo{
+  font-weight: 700;
+  font-size: 33px;
+  margin-bottom: 18px;
+  font-family: Helvetica;
+}
+
+.product{
+  margin-left: 90px;
+}
+
+.col{
+  padding: 0px 81px 20px 0px;
+}
+
+.btnD{
+  font-family: 'Didact Gothic', sans-serif;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: transparent;
+}
+
+.btnD:hover{
+  background-color: #f1f1f1;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.imaD{
+  margin-top: 10px;
+}
+
+/*aqui termina mi seccion Daff*/
+/*footer Nash y Ross*/
+body{
+    height: 100%;
+    width: 100%
+}
+footer{
+	background-color: #333447;
+	color: #f3f3f5;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.contenedorNr1{
+	position: relative;
+}
+.listaLinks1{
+	display: inline-block;
+}
+.listaLinks1 ul{
+	list-style: none;
+}
+.listaLinks2{
+	display: inline-block;
+	position: absolute;
+}
+.listaLinks2 ul{
+	list-style: none;
+}
+.listaLinks3{
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+}
+.listaLinks3 ul{
+	list-style: none;
+}
+.imagenes{
+	display: inline-block;
+	position: absolute;
+	margin-left: 50%;
+}
+.imagenes ul{
+	list-style: none;
+}
+li h4{
+	color: #bfc7d9;
+}
+.img{
+	width: 30%;
+	padding: 5%;
+}
+.aFooter:link{
+    text-decoration: none;
+}
+.aFooter:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.aFooter:hover{
+   	color: magenta;
+    text-decoration: underline;
+}
+.redesSociales ul{
+	list-style: none;
+}
+.redeSociales{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.redeS{
+	display: inline-block;
+	margin-left: 20px;
+}
+.reds{
+	position: relative;
+	display: inline-block;
+	left: 530px;
+}
+.derechos ul{
+	list-style: none;
+}
+.lineA{
+	width: 400px;
+	color: white;
+}
+.derechos{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.derechoS{
+	display: inline-block;
+}
+/*Aqui termina footer*/
