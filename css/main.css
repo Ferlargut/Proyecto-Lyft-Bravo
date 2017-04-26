@@ -9,21 +9,23 @@ body{
   color: #333447;
   line-height: 1.5;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 19px;
   display: flex;
   text-align: justify;
 }
 
 .titulito{
   font-size: 14px;
-  font-weight: bold;
-  margin-bottom: -35px;
+  margin-bottom: -25px;
+  font-family: Helvetica;
+  font-weight: 700;
 }
 
 .titulo{
   font-weight: 700;
-  font-size: 40px;
+  font-size: 33px;
   margin-bottom: 18px;
+  font-family: Helvetica;
 }
 
 .product{
@@ -42,6 +44,12 @@ body{
   border-radius: 15px;
   border: 1px solid #000;
   background: transparent;
+}
+
+.btnD:hover{
+  background-color: #f1f1f1;
+  touch-action: manipulation;
+  cursor: pointer;
 }
 
 .imaD{
