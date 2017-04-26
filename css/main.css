@@ -307,7 +307,46 @@ body{
 	cursor: auto;
 	font-size: .6rem;
 }
-
+.nombreLugar{
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+.apellido{
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+.correo{
+	display: block;
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+}
+.checar{
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+	margin-left: 60px;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+	margin-bottom: 20px;
+}
 /*fin del css nancy header*/
 
 /*Seccion Notas*/
