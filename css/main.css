@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/*Seccion Notas*/
+.notas{
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333447;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  text-align: justify;
+}
+
+.titulito{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: -35px;
+}
+
+.titulo{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+
+.product{
+  margin-left: 90px;
+}
+
+.col{
+  padding: 0px 81px 20px 0px;
+}
+
+.btnD{
+  font-family: 'Didact Gothic', sans-serif;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: transparent;
+}
+
+.imaD{
+  margin-top: 10px;
+}
