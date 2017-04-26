@@ -2,3 +2,45 @@ body{
     height: 100%;
     width: 100%;
 }
+/*SECCION DE ANDY*/
+.text-video{
+  display: block;
+}
+section{
+  display: flex;
+}
+.texto{
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333447 ;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 19px;
+
+}
+.titulito{
+ font-size: 14px;
+ margin-bottom: -25px;
+ font-family: Helvetica;
+ font-weight: 700;
+}
+.titulo{
+ font-weight: 700;
+ font-size: 33px;
+ margin-bottom: 18px;
+ font-family: Helvetica;
+}
+.notas{
+ font-family: 'Didact Gothic', sans-serif;
+ color: #333447 ;
+ line-height: 1.5;
+ font-weight: 300;
+ font-size: 19px;
+}
+.video{
+  margin-top: -5px;
+}
+
+/*AQUI TERMINA LA SECCION DE ANDY*/
