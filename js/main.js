@@ -62,6 +62,8 @@ console.log(reproducir);
 reproducir.addEventListener("click",videos);
 
 function videos(){
+
     reproducir.style.display="none";
+    document.getElementById("clickimagen1").style.display="none"
     document.getElementById("video1").style.display="block";
 }
