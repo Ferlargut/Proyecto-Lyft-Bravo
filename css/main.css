@@ -501,8 +501,8 @@ li h4{
 	color: #bfc7d9;
 }
 .img{
-	width: 30%;
-	padding: 5%;
+	width: 200px;
+    height: 60px;
 }
 .aFooter:link{
     text-decoration: none;
