@@ -547,4 +547,7 @@ li h4{
 .derechoS{
 	display: inline-block;
 }
+iframe{
+    display: none;
+}
 /*Aqui termina footer*/
