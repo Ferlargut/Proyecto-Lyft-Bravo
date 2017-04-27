@@ -532,6 +532,7 @@ li h4{
 	position: relative;
 	display: inline-block;
 	left: 530px;
+	width: 40px;
 }
 .derechos ul{
 	list-style: none;
