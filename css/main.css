@@ -481,13 +481,16 @@ footer{
 }
 .listaLinks1{
 	display: inline-block;
+	line-height: 1.5;
 }
 .listaLinks1 ul{
 	list-style: none;
+	line-height: 2;
 }
 .listaLinks2{
 	display: inline-block;
 	position: absolute;
+	line-height: 2;
 }
 .listaLinks2 ul{
 	list-style: none;
@@ -496,6 +499,7 @@ footer{
 	display: inline-block;
 	position: absolute;
 	margin-left: 20%;
+	line-height: 2;
 }
 .listaLinks3 ul{
 	list-style: none;
@@ -512,11 +516,11 @@ li h4{
 	color: #bfc7d9;
 }
 .img{
-  position: relative;
+  	position: relative;
 	width: 200px;
-  height: 60px;
-  padding: 5px;
-  left: 180px;
+ 	height: 60px;
+  	padding: 5px;
+  	left: 180px;
 }
 .aFooter:link{
     text-decoration: none;
