@@ -12,9 +12,13 @@ body{
     width: 100%;
     height: 550px;
 }
+#contenedorsecf{
+	width: 100%
+}
 #imgcelf{
     /*background-image: url(/home/alumna40/Escritorio/Proyecto-Lyft-Bravo/img/phone.png);*/
-    margin-right: 100px;
+    margin-right: 95px;
+		margin-bottom: 20px;
     float: right;
 }
 #imgf{
@@ -26,11 +30,9 @@ body{
     color: white;
 }
 .contieneparrafof{
-    position: relative;
-    margin: 10px;
-    padding: 20px;
-    left: 200px;
-    width: 1000px;
+    position: relative;  
+		top: 40px;
+    margin-left: 183px;  
 }
 .h3f{
     font-size: 1.60em;
@@ -41,11 +43,8 @@ body{
     font-size: 1rem;
 }
 .parrafosf{
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem
-
+    position: relative;
+    width: 100%;
 }
 /*css nancy header*/
 #sectionFormulario > img{
@@ -150,9 +149,10 @@ body{
 /* estilos navbar*/
 .navBar {
   position: fixed;
-  background-color: #333447;
+  background:linear-gradient(#333447,transparent);
   width: 100%;
   font-family: 'Didact Gothic', sans-serif;
+  z-index:1;
 }
 /* estilos logo*/
 .logo {
@@ -185,15 +185,16 @@ body{
 }
 /*hover sobre elementos del nav*/
 .elementosUlTexto:hover {
-  color:#ff00bf;
+  color:#ff00bf !important;
 }
 .elementosUl:hover {
   cursor:pointer;
 }
 
 .botonLog:hover {
-  background-color: #999999;
+  background-color: #999999 !important;
   cursor:pointer;
+
 }
 /*boton oculto de sign in estilos*/
 .botonSign {
@@ -362,6 +363,54 @@ input::-webkit-input-placeholder {
 }
 /*fin del css nancy header*/
 
+/*seccion andy*/
+.seccion-body{
+  display: block;
+}
+.notas{
+  display: block;
+}
+
+.text-video{
+  display: block;
+}
+section{
+  display: flex;
+}
+.texto{
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333447 ;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 19px;
+
+}
+.titulito{
+ font-size: 14px;
+ margin-bottom: -25px;
+ font-family: Helvetica;
+ font-weight: 700;
+}
+
+.titulo{
+ font-weight: 700;
+ font-size: 33px;
+ margin-bottom: 18px;
+ font-family: Helvetica;
+}
+.notas{
+ font-family: 'Didact Gothic', sans-serif;
+ color: #333447 ;
+ line-height: 1.5;
+ font-weight: 300;
+ font-size: 19px;
+}
+
+/*seccion andy*/
+
 /*Seccion Notas*/
 .notas{
   font-family: 'Didact Gothic', sans-serif;
@@ -416,3 +465,111 @@ input::-webkit-input-placeholder {
 }
 
 /*aqui termina mi seccion Daff*/
+/*footer Nash y Ross*/
+body{
+    height: 100%;
+    width: 100%
+}
+footer{
+	background-color: #333447;
+	color: #f3f3f5;
+	font-family: 'Didact Gothic', sans-serif;
+  margin: -4px;
+}
+.contenedorNr1{
+	position: relative;
+}
+.listaLinks1{
+	display: inline-block;
+}
+.listaLinks1 ul{
+	list-style: none;
+}
+.listaLinks2{
+	display: inline-block;
+	position: absolute;
+}
+.listaLinks2 ul{
+	list-style: none;
+}
+.listaLinks3{
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+}
+.listaLinks3 ul{
+	list-style: none;
+}
+.imagenes{
+	display: inline-block;
+	position: absolute;
+	margin-left: 50%;
+}
+.imagenes ul{
+	list-style: none;
+}
+li h4{
+	color: #bfc7d9;
+}
+.img{
+  position: relative;
+	width: 200px;
+  height: 60px;
+  padding: 5px;
+  left: 180px;
+}
+.aFooter:link{
+    text-decoration: none;
+}
+.aFooter:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.aFooter:hover{
+   	color: magenta;
+    text-decoration: underline;
+}
+.redesSociales ul{
+	list-style: none;
+}
+.redeSociales{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.redeS{
+	display: inline-block;
+	margin-left: 20px;
+}
+.reds{
+	position: relative;
+	display: inline-block;
+	left: 530px;
+	width: 40px;
+}
+.derechos ul{
+	list-style: none;
+}
+.lineA{
+	width: 400px;
+	color: white;
+}
+.derechos{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.derechoS{
+	display: inline-block;
+}
+
+iframe{
+    display: none;
+}
+#clickimagen{
+	  position: absolute;
+    right: 339px;
+    top: 1389px
+}
+/*Aqui termina footer*/
+
