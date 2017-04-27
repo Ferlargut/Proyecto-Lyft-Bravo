@@ -12,9 +12,13 @@ body{
     width: 100%;
     height: 550px;
 }
+#contenedorsecf{
+	width: 100%
+}
 #imgcelf{
     /*background-image: url(/home/alumna40/Escritorio/Proyecto-Lyft-Bravo/img/phone.png);*/
-    margin-right: 100px;
+    margin-right: 95px;
+		margin-bottom: 20px;
     float: right;
 }
 #imgf{
@@ -26,11 +30,9 @@ body{
     color: white;
 }
 .contieneparrafof{
-    position: relative;
-    margin: 10px;
-    padding: 20px;
-    left: 200px;
-    width: 1000px;
+    position: relative;  
+		top: 40px;
+    margin-left: 183px;  
 }
 .h3f{
     font-size: 1.60em;
@@ -41,11 +43,8 @@ body{
     font-size: 1rem;
 }
 .parrafosf{
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem
-
+    position: relative;
+    width: 100%;
 }
 /*css nancy header*/
 #sectionFormulario > img{
@@ -396,9 +395,7 @@ section{
  font-weight: 300;
  font-size: 19px;
 }
-.video{
-  margin-top: -5px;
-}
+
 /*seccion andy*/
 
 /*Seccion Notas*/
@@ -551,4 +548,9 @@ li h4{
 .derechoS{
 	display: inline-block;
 }
-/*Aquí termina footer*/
+
+iframe{
+    display: none;
+}
+/*Aqui termina footer*/
+

@@ -54,3 +54,14 @@ function aparecer(){
 		formularioDatos.style.display = "block";
 	}
 }
+
+var reproducir = document.getElementById("clickimagen");
+console.log(reproducir);
+
+
+reproducir.addEventListener("click",videos);
+
+function videos(){
+    reproducir.style.display="none";
+    document.getElementById("video1").style.display="block";
+}
