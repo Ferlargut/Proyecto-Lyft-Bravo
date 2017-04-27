@@ -1,8 +1,8 @@
 body{
     height: 100%;
     width: 100%;
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding:0;
     }
 #contenedorPrincipal{
         margin-top: -10px;
@@ -12,9 +12,13 @@ body{
     width: 100%;
     height: 550px;
 }
+#contenedorsecf{
+	width: 100%
+}
 #imgcelf{
     /*background-image: url(/home/alumna40/Escritorio/Proyecto-Lyft-Bravo/img/phone.png);*/
-    margin-right: 100px;
+    margin-right: 95px;
+		margin-bottom: 20px;
     float: right;
 }
 #imgf{
@@ -27,10 +31,8 @@ body{
 }
 .contieneparrafof{
     position: relative;
-    margin: 10px;
-    padding: 20px;
-    left: 200px;
-    width: 1000px;
+	top: 40px;
+    margin-left: 183px;
 }
 .h3f{
     font-size: 1.60em;
@@ -41,11 +43,8 @@ body{
     font-size: 1rem;
 }
 .parrafosf{
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem
-
+    position: relative;
+    width: 100%;
 }
 /*css nancy header*/
 #sectionFormulario > img{
@@ -207,21 +206,20 @@ input{
 
 }
 input::-webkit-input-placeholder {
-  /*color: rgba(156,156,156,.5);*/
   color: #bfc7d9;
   font-size: 20px;
   margin-bottom: 5px;
 }
-/*fin del css nancy header*/
 /*fin del css nancy header*/
 
 /*inicio estilos sue e ilse*/
 /* estilos navbar*/
 .navBar {
   position: fixed;
-  background-color: #333447;
+  background:linear-gradient(#333447,transparent);
   width: 100%;
   font-family: 'Didact Gothic', sans-serif;
+  z-index:1;
 }
 /* estilos logo*/
 .logo {
@@ -254,15 +252,16 @@ input::-webkit-input-placeholder {
 }
 /*hover sobre elementos del nav*/
 .elementosUlTexto:hover {
-  color:#ff00bf;
+  color:#ff00bf !important;
 }
 .elementosUl:hover {
   cursor:pointer;
 }
 
 .botonLog:hover {
-  background-color: #999999;
+  background-color: #999999 !important;
   cursor:pointer;
+
 }
 /*boton oculto de sign in estilos*/
 .botonSign {
@@ -279,157 +278,74 @@ input::-webkit-input-placeholder {
   margin-left:40px;
 
 }
-/*css nancy header*/
-#sectionFormulario > img{
-	display: inline-block;
-	width: 100%;
 
+/*seccion andy*/
+.seccion-body{
+  display: block;
 }
-.contenedorTexto{
-	margin-top: 200px;
-	height: auto;
-	width: 50%;
-	position: absolute;
-	background-color: white;
-	margin-left: 50%;
+.notas{
+  display: block;
 }
-#texto1{
-	position: relative;
-	margin-left: 60px;
-	font-size: 40px;
-	color: #352384;
+.text-video{
+  display: block;
 }
-#texto2{
-	font-size: small;
-	letter-spacing: 1.5px;
-	position: relative;
-	display: inline-block;
-	margin-left: 60px;
-	color: #352384;
+section{
+  display: flex;
 }
-#cel{
-	position: relative;
-	margin-bottom: 20px;
-	border-bottom:solid black 1px;
-	margin-left: 60px;
-	width: 80%;
+.texto{
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333447 ;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 19px;
 }
-#numero{
-	position: relative;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
+.titulito{
+ font-size: 14px;
+ margin-bottom: -25px;
+ font-family: Helvetica;
+ font-weight: 700;
 }
-#btn_texto{
-	display: inline-block;
-	position: relative;
-	width: 80%;
-	height:auto;
-	margin-left: 60px;
-	border: solid 1px transparent;
+.titulo{
+ font-weight: 700;
+ font-size: 33px;
+ margin-bottom: 18px;
+ font-family: Helvetica;
 }
-#btnText{
-	display: inline-block;
-	font-weight: 400;
-	font-size: 1rem;
-	white-space: nowrap;
-	cursor: pointer;
-	border: .08333rem solid transparent;
-	border-bottom: 5px;
-	background-color:#ff00bf;
-	color: white;
-	border-radius: .5rem;
-	line-height: 1.5;
-	padding: .75rem 1.25rem;
+.notas{
+ font-family: 'Didact Gothic', sans-serif;
+ color: #333447 ;
+ line-height: 1.5;
+ font-weight: 300;
+ font-size: 19px;
 }
-#btnLink{
-	display: inline-block;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	cursor: pointer;
-	padding: .75rem 1.25rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	text-decoration: underline;
-	font-weight: 300;
-	color: #728099;
-	border-color: transparent;
-	background-color: transparent;
-	border-radius: 0;
+.video{
+  margin-top:-3.5px;
 }
-#btnLink:hover{
-	color: #ff00bf;
+iframe{
+    display: none;
 }
-.linea1{
-	margin-left: 60px;
-	font-size: .6rem;
-	line-height: 1.5;
-	color: #728099;
+#clickimagen{
+	  position: absolute;
+    margin-top: 0%;
+    margin-top: 250px;
+    margin-left: 460px;
 }
-.linea1_a{
-	color: #ff00bf;
-	text-decoration: none;
-	background-color: transparent;
-	cursor: auto;
-	font-size: .6rem;
+#clickimagenB{
+	  position: absolute;
+    margin-top: 0%;
+    margin-top: 250px;
+    margin-left: 460px;
 }
-.nombreLugar{
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
+#clickimagenC{
+	  position: absolute;
+    margin-top:0px;
+    margin-top: 250px;
+    margin-left: 460px;
 }
-.apellido{
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-}
-.correo{
-	display: block;
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-}
-.checar{
-	margin-top: 30px;
-	display: inline-block;
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-	margin-bottom: 20px;
-}
-#formularioDatos{
-	display: none;
-}
-input{
-	width: 200px;
-
-}
-input::-webkit-input-placeholder {
-  /*color: rgba(156,156,156,.5);*/
-  color: #bfc7d9;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-/*fin del css nancy header*/
+/*seccion andy*/
 
 /*Seccion Notas*/
 .notas{
@@ -482,6 +398,111 @@ input::-webkit-input-placeholder {
 
 .imaD{
   margin-top: 10px;
+  width: 100%;
 }
 
 /*aqui termina mi seccion Daff*/
+/*footer Nash y Ross*/
+footer{
+	background-color: #333447;
+	color: #f3f3f5;
+	font-family: 'Didact Gothic', sans-serif;
+  	margin: -4px;
+	width: 100%;
+	height: 100%;
+}
+.contenedorNr1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.listaLinks1{
+	display: inline-block;
+	line-height: 1.5;
+}
+.listaLinks1 ul{
+	list-style: none;
+	line-height: 2;
+}
+.listaLinks2{
+	display: inline-block;
+	position: absolute;
+	line-height: 2;
+}
+.listaLinks2 ul{
+	list-style: none;
+}
+.listaLinks3{
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+	line-height: 2;
+}
+.listaLinks3 ul{
+	list-style: none;
+}
+.imagenes{
+	display: inline-block;
+	position: absolute;
+	margin-left: 50%;
+}
+.imagenes ul{
+	list-style: none;
+}
+li h4{
+	color: #bfc7d9;
+}
+.img{
+  	position: relative;
+	width: 200px;
+ 	height: 60px;
+  	padding: 5px;
+  	left: 180px;
+}
+.aFooter:link{
+    text-decoration: none;
+}
+.aFooter:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.aFooter:hover{
+   	color: magenta;
+    text-decoration: underline;
+}
+.redesSociales ul{
+	list-style: none;
+}
+.redeSociales{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.redeS{
+	display: inline-block;
+	margin-left: 20px;
+}
+.reds{
+	position: relative;
+	display: inline-block;
+	left: 530px;
+	width: 40px;
+}
+.derechos ul{
+	list-style: none;
+}
+.lineA{
+	width: 400px;
+	color: white;
+}
+.derechos{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.derechoS{
+	display: inline-block;
+}
+
+
+/*Aqui termina footer*/
