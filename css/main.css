@@ -401,14 +401,20 @@ iframe{
 #clickimagen{
 	  position: absolute;
     margin-top: 0%;
+    margin-top: 250px;
+    margin-left: 460px;
 }
 #clickimagenB{
 	  position: absolute;
     margin-top: 0%;
+    margin-top: 250px;
+    margin-left: 460px;
 }
 #clickimagenC{
 	  position: absolute;
-    margin-top: 0%;
+    margin-top:0px;
+    margin-top: 250px;
+    margin-left: 460px;
 }
 /*seccion andy*/
 
