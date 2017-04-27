@@ -30,9 +30,9 @@ body{
     color: white;
 }
 .contieneparrafof{
-    position: relative;  
+    position: relative;
 		top: 40px;
-    margin-left: 183px;  
+    margin-left: 183px;
 }
 .h3f{
     font-size: 1.60em;
@@ -370,7 +370,6 @@ input::-webkit-input-placeholder {
 .notas{
   display: block;
 }
-
 .text-video{
   display: block;
 }
@@ -386,7 +385,6 @@ section{
   line-height: 1.5;
   font-weight: 300;
   font-size: 19px;
-
 }
 .titulito{
  font-size: 14px;
@@ -394,7 +392,6 @@ section{
  font-family: Helvetica;
  font-weight: 700;
 }
-
 .titulo{
  font-weight: 700;
  font-size: 33px;
@@ -408,7 +405,24 @@ section{
  font-weight: 300;
  font-size: 19px;
 }
-
+.video{
+  margin-top:-3.5px;
+}
+iframe{
+    display: none;
+}
+#clickimagen{
+	  position: absolute;
+    margin-top: 0%;
+}
+#clickimagenB{
+	  position: absolute;
+    margin-top: 0%;
+}
+#clickimagenC{
+	  position: absolute;
+    margin-top: 0%;
+}
 /*seccion andy*/
 
 /*Seccion Notas*/
@@ -567,13 +581,5 @@ li h4{
 	display: inline-block;
 }
 
-iframe{
-    display: none;
-}
-#clickimagen{
-	  position: absolute;
-    right: 339px;
-    top: 1389px
-}
-/*Aqui termina footer*/
 
+/*Aqui termina footer*/
