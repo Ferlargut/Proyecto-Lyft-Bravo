@@ -552,5 +552,10 @@ li h4{
 iframe{
     display: none;
 }
+#clickimagen{
+	  position: absolute;
+    right: 339px;
+    top: 1389px
+}
 /*Aqui termina footer*/
 
