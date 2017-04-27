@@ -1,8 +1,8 @@
 body{
     height: 100%;
     width: 100%;
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding:0;
     }
 #contenedorPrincipal{
         margin-top: -10px;
@@ -31,7 +31,7 @@ body{
 }
 .contieneparrafof{
     position: relative;
-		top: 40px;
+	top: 40px;
     margin-left: 183px;
 }
 .h3f{
@@ -50,7 +50,6 @@ body{
 #sectionFormulario > img{
 	display: inline-block;
 	width: 100%;
-
 }
 .contenedorTexto{
 	margin-top: 200px;
@@ -100,6 +99,7 @@ body{
 #btnText{
 	display: inline-block;
 	font-weight: 400;
+	margin-top: 10px;
 	font-size: 1rem;
 	white-space: nowrap;
 	cursor: pointer;
@@ -142,6 +142,73 @@ body{
 	background-color: transparent;
 	cursor: auto;
 	font-size: .6rem;
+}
+.datos{
+	border-color: transparent;
+	display: inline-block;
+	position:relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+	margin-left: 60px;
+}
+.fN{
+	position: relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+}
+.promo{
+	margin-left: 10px;
+	text-decoration: none;
+	border-color: transparent;
+	display: inline-block;
+	position:relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+    margin-bottom: 25px;
+}
+.promo > a{
+	color:#bfc7d9;
+	font-size: 20px;
+
+}
+a:hover{
+	color:#bc09a1;
+}
+#txtCheck{
+	margin-left: 40px;
+	display: inline-block;
+}
+#formularioDatos{
+	display: none;
+}
+#linkTxt{
+	color: #f23cef;
+	text-decoration: none;
+}
+#linkTxt:hover{
+	color: #960680;
+	cursor: auto;
+	text-decoration:underline;
+}
+#check{
+	margin-left: 50px;
+	width: 30px;
+}
+input{
+	width: 200px;
+
+}
+input::-webkit-input-placeholder {
+  color: #bfc7d9;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 /*fin del css nancy header*/
 
@@ -211,157 +278,6 @@ body{
   margin-left:40px;
 
 }
-/*css nancy header*/
-#sectionFormulario > img{
-	display: inline-block;
-	width: 100%;
-
-}
-.contenedorTexto{
-	margin-top: 200px;
-	height: auto;
-	width: 50%;
-	position: absolute;
-	background-color: white;
-	margin-left: 50%;
-}
-#texto1{
-	position: relative;
-	margin-left: 60px;
-	font-size: 40px;
-	color: #352384;
-}
-#texto2{
-	font-size: small;
-	letter-spacing: 1.5px;
-	position: relative;
-	display: inline-block;
-	margin-left: 60px;
-	color: #352384;
-}
-#cel{
-	position: relative;
-	margin-bottom: 20px;
-	border-bottom:solid black 1px;
-	margin-left: 60px;
-	width: 80%;
-}
-#numero{
-	position: relative;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-}
-#btn_texto{
-	display: inline-block;
-	position: relative;
-	width: 80%;
-	height:auto;
-	margin-left: 60px;
-	border: solid 1px transparent;
-}
-#btnText{
-	display: inline-block;
-	font-weight: 400;
-	font-size: 1rem;
-	white-space: nowrap;
-	cursor: pointer;
-	border: .08333rem solid transparent;
-	border-bottom: 5px;
-	background-color:#ff00bf;
-	color: white;
-	border-radius: .5rem;
-	line-height: 1.5;
-	padding: .75rem 1.25rem;
-}
-#btnLink{
-	display: inline-block;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	cursor: pointer;
-	padding: .75rem 1.25rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	text-decoration: underline;
-	font-weight: 300;
-	color: #728099;
-	border-color: transparent;
-	background-color: transparent;
-	border-radius: 0;
-}
-#btnLink:hover{
-	color: #ff00bf;
-}
-.linea1{
-	margin-left: 60px;
-	font-size: .6rem;
-	line-height: 1.5;
-	color: #728099;
-}
-.linea1_a{
-	color: #ff00bf;
-	text-decoration: none;
-	background-color: transparent;
-	cursor: auto;
-	font-size: .6rem;
-}
-.nombreLugar{
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-}
-.apellido{
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-}
-.correo{
-	display: block;
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-}
-.checar{
-	margin-top: 30px;
-	display: inline-block;
-	position: relative;
-	margin-left: 60px;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	border-bottom: solid black 1px;
-	margin-bottom: 20px;
-}
-#formularioDatos{
-	display: none;
-}
-input{
-	width: 200px;
-
-}
-input::-webkit-input-placeholder {
-  /*color: rgba(156,156,156,.5);*/
-  color: #bfc7d9;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-/*fin del css nancy header*/
 
 /*seccion andy*/
 .seccion-body{

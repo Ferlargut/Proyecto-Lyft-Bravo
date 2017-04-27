@@ -39,11 +39,23 @@ function prueba(){
 
 }
 
-  // termina funcionalidad barra de navegacion ilse y sue
+// termina funcionalidad barra de navegacion ilse y sue
 
 //parte del formulario nancy
 var numero = document.getElementById('numero');
 numero.addEventListener("click",aparecer);
+//variable para el placeholder
+var fN = document.getElementsByClassName('fN');
+
+for(var i=0; i< fN.length; i++){
+	fN[i].addEventListener('click',pequenoPlaceholder);
+}
+
+//hacer una funcion para el fn
+function pequenoPlaceholder(){
+	alert("hola");
+	
+}
 
 //funcion
 function aparecer(){
@@ -55,6 +67,9 @@ function aparecer(){
 		formularioDatos.style.display = "none";
 	}
 }
+
+//fin de nancy
+
 
 var reproducir = document.getElementById("clickimagen");
 console.log(reproducir);
@@ -68,3 +83,4 @@ function videos(){
     document.getElementById("clickimagen1").style.display="none"
     document.getElementById("video1").style.display="block";
 }
+
