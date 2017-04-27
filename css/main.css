@@ -348,6 +348,19 @@ body{
 	border-bottom: solid black 1px;
 	margin-bottom: 20px;
 }
+#formularioDatos{
+	display: none;
+}
+input{
+	width: 200px;
+
+}
+input::-webkit-input-placeholder {
+  /*color: rgba(156,156,156,.5);*/
+  color: #bfc7d9;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
 /*fin del css nancy header*/
 
 /*seccion andy*/
