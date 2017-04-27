@@ -51,7 +51,6 @@ body{
 #sectionFormulario > img{
 	display: inline-block;
 	width: 100%;
-
 }
 .contenedorTexto{
 	margin-top: 200px;
@@ -101,6 +100,7 @@ body{
 #btnText{
 	display: inline-block;
 	font-weight: 400;
+	margin-top: 10px;
 	font-size: 1rem;
 	white-space: nowrap;
 	cursor: pointer;
@@ -144,6 +144,75 @@ body{
 	cursor: auto;
 	font-size: .6rem;
 }
+.datos{
+	border-color: transparent;
+	display: inline-block;
+	position:relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+	border-bottom: solid black 1px;
+	margin-left: 60px;
+}
+.fN{
+	position: relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+}
+.promo{
+	margin-left: 10px;
+	text-decoration: none;
+	border-color: transparent;
+	display: inline-block;
+	position:relative;
+	border-color: #E60000;
+	padding-top: 1.15rem;
+    outline: none;
+    border-width: 0;
+    margin-bottom: 25px;
+}
+.promo > a{
+	color:#bfc7d9;
+	font-size: 20px;
+
+}
+a:hover{
+	color:#bc09a1;
+}
+#txtCheck{
+	margin-left: 40px;
+	display: inline-block;
+}
+#formularioDatos{
+	display: none;
+}
+#linkTxt{
+	color: #f23cef;
+	text-decoration: none;
+}
+#linkTxt:hover{
+	color: #960680;
+	cursor: auto;
+	text-decoration:underline;
+}
+#check{
+	margin-left: 50px;
+	width: 30px;
+}
+input{
+	width: 200px;
+
+}
+input::-webkit-input-placeholder {
+  /*color: rgba(156,156,156,.5);*/
+  color: #bfc7d9;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+/*fin del css nancy header*/
 /*fin del css nancy header*/
 
 /*inicio estilos sue e ilse*/
