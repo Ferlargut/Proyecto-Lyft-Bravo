@@ -465,6 +465,7 @@ li h4{
 }
 .aFooter:link{
     text-decoration: none;
+	color: #fff;
 }
 .aFooter:visited{
     text-decoration: none;
