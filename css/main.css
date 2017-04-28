@@ -398,6 +398,10 @@ iframe{
   width: 100%;
 }
 
+.imaD > img {
+  width: 100%;
+}
+
 /*aqui termina mi seccion Daff*/
 /*footer Nash y Ross*/
 footer{
@@ -458,6 +462,7 @@ li h4{
 }
 .aFooter:link{
     text-decoration: none;
+	color: #fff;
 }
 .aFooter:visited{
     text-decoration: none;
