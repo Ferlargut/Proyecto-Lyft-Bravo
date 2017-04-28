@@ -157,25 +157,9 @@ body{
 	cursor: auto;
 	font-size: .6rem;
 }
-/*.datos{
-	border-color: transparent;
-	display: inline-block;
-	position:relative;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-	margin-left: 60px;
-}
-.fN{
-	position: relative;
-	border-color: #E60000;
-	padding-top: 1.15rem;
-    outline: none;
-    border-width: 0;
-}*/
+
 .promo{
-	margin-left: 10px;
+	margin-left: 60px;
 	text-decoration: none;
 	border-color: transparent;
 	display: inline-block;
