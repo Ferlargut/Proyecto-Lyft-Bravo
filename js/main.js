@@ -45,17 +45,18 @@ function prueba(){
 var numero = document.getElementById('numero');
 numero.addEventListener("click",aparecer);
 //variable para el placeholder
-var fN = document.getElementsByClassName('fN');
+// var fN = document.getElementsByClassName('fN');
 
-for(var i=0; i< fN.length; i++){
-	fN[i].addEventListener('click',pequenoPlaceholder);
-}
+// for(var i=0; i< fN.length; i++){
+// 	fN[i].addEventListener('click',pequenoPlaceholder);
+// }
 
-//hacer una funcion para el fn
-function pequenoPlaceholder(){
-	alert("hola");
+// //hacer una funcion para el fn
+// function pequenoPlaceholder(){
+// 	// this.style.fontSize = "5px";
+// 	this.placeholder = "hola";
 	
-}
+// }
 
 //funcion
 function aparecer(){
