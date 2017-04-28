@@ -34,18 +34,35 @@
         </div>
         <!-- agregar el formulario -->
         <div id="papaFormulario">
-          <div id="cel">
-            <input type="tel" id="numero" placeholder="Phone Number" required="required">
+          <div class="cel">
+            <input type="tel" id="numero" />
+            <label for="numero">Phone Number</label>
           </div>
           <!-- el div que tendra la funcion -->
           <div id="formularioDatos">
-              <div class="datos"><input type="text" placeholder="First Name" class="fN"></div>
-              <div class="datos"><input type="text" placeholder="Last Name" class="fN"></div>
-              <div class="datos"><input type="email" placeholder="Email" class="fN"></div>
-              <div class="datos"><input type="text" placeholder="City" class="fN"></div>
-              <div class="promo"><a href="#">Promo code?</a></div>
-              <div id="checTxt"><input id="check" type="checkbox" name="txt1"><label for="txt1">I agree to</label>
-              <a id="linkTxt" href="#">Lyft’s Terms of Service</a>
+              <div class="cel">
+                <input type="text" id="numero" />
+                <label for="numero">First Name</label>
+              </div>
+              <div class="cel datos">
+                <input type="text" id="lastName" class="fN" />
+                <label for="lastName">Last Name</label>
+              </div>
+              <div class="cel">
+                <input type="email" id="email" />
+                <label for="email">Email</label>
+              </div>
+              <div class="cel">
+                <input type="text" id="city" />
+                <label for="city">City</label>
+              </div>
+              <div class="promo">
+                <a href="#">Promo code?</a>
+              </div>
+              <div id="checTxt">
+                <input type="checkbox" id="check" value="check"/>
+                <label for="check">I agree to</label>  
+                <a id="linkTxt" href="#">Lyft’s Terms of Service</a>
               </div>
           </div>
          <!-- fin del div de la funcion -->
@@ -68,7 +85,6 @@
 
     <section class="text-video">
       <section id="contenedorPrincipal">
-
         <section id="contenedorfer">
           <div id="contenedorsecf">
             <div id="contEimg">
@@ -177,7 +193,7 @@
           <ul>
             <li><a href="#" class="aFooter"><h4>DRIVE</h4></a></li>
             <li><a href="#" class="aFooter"><h4>RIDE</h4></a></li>
-		        <li><a href="#" class="aFooter"><h4>LOG IN</h4></a></li>
+            <li><a href="#" class="aFooter"><h4>LOG IN</h4></a></li>
             <li><a href="#" class="aFooter">Help</a></li>
             <li><a href="#" class="aFooter">Cities</a></li>
             <li><a href="#" class="aFooter">Airports</a></li>
@@ -211,7 +227,7 @@
       <!--contenedor  de la lista de tiendas online-->
         <div class="imagenes">
           <ul>
-			      <li><a href="#"><img class="img" src="img/appStore.svg"></li></a>
+            <li><a href="#"><img class="img" src="img/appStore.svg"></li></a>
             <li><a href="#"><img class="img" src="img/googlePlay.png"/></li></a>
             <li><a href="#"><img class="img" src="img/amazon.png"></li></a>
             <li><a href="#"><img class="img" src="img/microsoft.png"></li></a>
@@ -239,3 +255,5 @@
   <script src="./js/main.js"></script>
 </body>
 </html>
+
+
